@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Roboto:wght@300&display=swap');
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+    height: 100vh;
+}
+.contenedor {
+  width: 100%;
+  padding: 50px;
+}
+.col50 {
+    width: 100%;
+
+}
+.fila{
+    display: flex;
+    flex-direction: column;
+}
+.h200{
+    height: 200px;
+}
+.h400{
+    height: 400px;
+}
+.h600{
+    height: 600px;
+}
+/* ------------colores-------------- */
+.colorprimario{background-color: #0b135e;}
+.colorsecundario{background-color: rgb(78, 26, 128);}
+.colorsecundario2{background-color: rgb(87, 26, 128);}
+.colorblanco{color: white;}
+.colorceleste{color: lightblue;}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.tilt{
+    font-family: 'Libre Franklin', sans-serif;
+}
+.fweight100{
+    font-weight: 100;
+}
+.fweight300{
+    font-weight: 300;
+}
+.fweight700{
+    font-weight: 700;
+}
+/* -----------------ordenamiento----------------- */
+.centrarh{justify-content: center;}
+.centrarv{align-items: center;}
+.dflex{display: flex;}
+.grow1{flex: 1;}
+.grow2{flex: 2;}
+.row{flex-direction: row;}
+.centrartxt{text-align: center;}
+/* -----------------condiciones particulares----------------- */
+.flex1 > p{
+    text-transform: uppercase;
+}
+.imagen{
+    height: 100%;
+    object-fit: contain;
+}
+.ov{overflow: hidden;}
+.argentina{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-violeta-formas-superpuestas_52683-45120.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
