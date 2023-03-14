@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,100&display=swap');
+
 *{margin: 0;padding: 0;box-sizing: border-box;}
+
 body{
     height: 100vh;
 }
@@ -28,6 +32,7 @@ body{
 .colorprimario{background-color: #0b135e;}
 .colorsecundario{background-color: rgb(78, 26, 128);}
 .colorsecundario2{background-color: rgb(87, 26, 128);}
+.colorcelestefondo{background-color:lightblue}
 .colorblanco{color: white;}
 .colorceleste{color: lightblue;}
 .roboto{
@@ -35,6 +40,9 @@ body{
 }
 .tilt{
     font-family: 'Libre Franklin', sans-serif;
+}
+.notosans{
+    font-family: 'Noto Sans', sans-serif;
 }
 .fweight100{
     font-weight: 100;
