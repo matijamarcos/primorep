@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&family=Playfair+Display:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.play2{
+    font-family: 'Jura', sans-serif;
+   
+}
+
+.play{
+    font-family: 'Playfair Display', serif;
+}
+
+.header{
+    position: relative;
+    height: 300px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWrsSg7sX2D6tr6pNAX6Tj4_G8Bbxki8O2RA&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+    box-shadow: inset 0 0 150px 20px black;
+    margin-bottom: 40px;
+
+}
+
+.header .welcone{
+    position: absolute;
+    color: white;
+    height: 40px;
+    bottom: 60px;
+}
+.header .busqueda{
+    position: absolute;
+    height: 50px;
+    width: 80%;
+    bottom: -20px;
+    background-color: rgb(229, 229, 233);
+    box-shadow: 0 10px 10px rgba(0,0,0,25);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+  
+}
+
+.busqueda .icono{
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px 0 0 5px;
+
+}
+
+.busqueda input[type="search"]{
+    background-color: transparent;
+    height: 50px;
+    width: calc(100% - 100px);
+    border: none;
+    padding-left: 14px;
+}
+.busqueda input[type="search"]:focus{
+   
+    border-bottom: solid 4px aquamarine;
+    border-radius: 5px;
+    outline: none;
+}
+
+.busqueda input[type="submit"]{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: gray;
+}
+.busqueda input[type="submit"]:hover{
+    background-color: black;
+    transform: scale(1.2);
+}
+.busqueda input[type="submit"]:active{
+    background-color: aquamarine;
+    color: white;
+    transform: scale(1);
+}
+
+nav{
+    background-color: yellow;
+}
+nav ul{
+    height: 100px;
+    background-color: aquamarine;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    overflow-x: scroll;
+}
+nav ul li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    font-size: 24px!important;
+}
+.fs16{
+    font-size: 30px!important;
+}
