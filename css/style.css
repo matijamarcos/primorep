@@ -61,6 +61,9 @@ body {
 .colorcelestefondo {
   background-color: lightblue;
 }
+.colorfondoblanco {
+  background-color: white;
+}
 .colorblanco {
   color: white;
 }
@@ -90,6 +93,9 @@ body {
 .dflex {
   display: flex;
 }
+.fdcolum {
+  flex-direction: column;
+}
 .centrarh {
   justify-content: center;
 }
@@ -118,6 +124,12 @@ body {
 /* -----------------condiciones particulares----------------- */
 .flex1 > p {
   text-transform: uppercase;
+}
+.header {
+  background-image: url("../img/restaurante.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 150px;
 }
 .imagen {
   height: 100%;
