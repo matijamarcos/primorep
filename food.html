@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/index2.css" />
+    <link rel="stylesheet" type="text/css" href="css/mediaqueris.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.4.js">
+            function $(id) {
+
+      return document.getElementById(id);
+
+      }
+
+
+      function sumar() {
+
+      $('cantidad').value = parseInt($('cantidad').value) + 1;
+
+      }
+
+
+      function restar() {
+
+      var cantidadItems = parseInt($('cantidad').value);
+
+      var nuevoValor = (cantidadItems)
+
+          ? cantidadItems - 1
+
+          : 0;
+
+
+      $('cantidad').value = nuevoValor;
+
+      }
+    </script>
+    <title>Menu</title>
+  </head>
+
+  <body class="pad_top60">
+    <header class="cerrar_menu">
+      <div class="posrel">
+        <button class="material-icons-outlined">close</button>
+        <h3 class="lato">Gran Restaurante</h3>
+      </div>
+    </header>
+    <section class="lista_menu">
+      <h3 class="lato">Main Dishes</h3>
+      <article class="item_menu">
+        <div class="item_imagen">
+          <img src="img/food.jpg" alt="comida" />
+          <div class="rate rate__resto">4.8</div>
+        </div>
+        <div class="item_detalle">
+          <h4>Bife con ensalada</h4>
+          <p>bife sabor bife para comer un</p>
+          <p></p>
+        </div>
+        <div class="addcart">
+          <button onclick="restar()" class="menos material-icons-outlined">
+            remove
+          </button>
+          <input
+            type="number"
+            min="1"
+            max="6"
+            step="1"
+            value="1"
+            id="cantidad"
+          />
+          <button onclick="sumar()" class="mas material-icons-outlined">
+            add
+          </button>
+          <button>ADD TO CART</button>
+        </div>
+      </article>
+    </section>
+
+    <footer class="nav_mobile lato">
+      <a href="dsd">Detalles</a><a href="ada">Menu</a><a href="sada">Revison</a>
+    </footer>
+  </body>
+</html>
